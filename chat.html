@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html id="html2">
+<head>
+	<title>chatter</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="chat.js"></script>
+</head>
+<body id="body2">
+<div class="container">
+	<div id="logdiv">
+<button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+</div>
+	<center>
+		<h1 class="header" id="heading2">	
+			Chatter
+			
+		</h1><br><br>
+		<h3 id="user name" class="color_white"></h3>
+		<div id="roomdiv">
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label><br><br>
+			<input type="text" id="room_name" class="form-control" placeholder="Room Name"><br><br>
+
+		</div>
+		<button onclick="addRoom()" class="btn btn-success">#Add Room</button><br><br></div>
+
+		<h3 class="color_white">#TRENDINGROOMS</h3>
+		<br><br><br><br><br><br><br><br>
+		<div id="output"></div>
+	
+	</center>
+</div>
+
+</body>
+</html>

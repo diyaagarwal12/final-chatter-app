@@ -1,0 +1,48 @@
+#body1{
+    background-image:url("https://wallpaperaccess.com/full/4660795.jpg");
+}
+#main{
+    
+    margin-left: 450;
+    background-color: rgba(125, 66, 184,0.2);
+    margin-top: 50;
+   
+  
+}
+
+
+#heading2{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:cursive;
+    
+}
+#body2{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/5178b6c5e4b0daa5f5130943/1366944966914-3OGJL3LVFHQOZD5NC9X0/Low+Opacity+background.png?format=1500w"); 
+
+
+}
+#html2{
+    border-style: solid;
+    border-width: 25px;
+    border-color: royalblue;
+    
+}
+#heading1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:cursive;
+    
+}
+#body3{
+    background-image:url("https://wallpaperaccess.com/full/1372726.jpg"); 
+}
+.input_div_message_page{
+    position: fixed;bottom: 0px;width: 100%;background:#e8a8f7;
+}
+#heading3{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family:cursive;
+}
+
